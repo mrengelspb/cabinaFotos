@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include "timer.h"
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
@@ -7,5 +9,8 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
 
+   // Timer timer();
+
+qDebug() << "START...";
     return a.exec();
 }

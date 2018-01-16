@@ -26,10 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    timer.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    timer.h
 
 FORMS += \
         mainwindow.ui
+
+RESOURCES += \
+    res.qrc

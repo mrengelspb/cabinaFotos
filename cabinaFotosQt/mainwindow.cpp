@@ -14,3 +14,21 @@ MainWindow::~MainWindow()
     // branch branch branch branch
     delete ui;
 }
+
+
+
+// Funcion para tomar foto, empieza un contador decremental
+void MainWindow::on_pushButton_clicked(){
+    int cntDecremental = 5;
+    QString contadorDecremental = QString::number(cntDecremental);
+
+   // QString lbl_contadorDecremental = label_2.text();
+
+    ui->label_2->setText(contadorDecremental);
+
+   //temp.apend( " validated" );
+   // label->setText( temp );
+
+
+
+}
