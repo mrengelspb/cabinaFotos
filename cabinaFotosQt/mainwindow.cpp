@@ -10,5 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
+    // branch para prueba
+    // branch branch branch branch
     delete ui;
 }
